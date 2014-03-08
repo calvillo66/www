@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario de Registro en VENESUPAL</title>
+</head>
+<body>
+<form action="process_register.php" method="post" target="_self">
+  <table width="646" border="0" summary="Aquí debe rellenar sus datos para registrarse en nuestro sistema de usuarios">
+    <caption>
+      Formulario de Registro en VENESUPAL
+    </caption>
+    
+    <tr>
+      <td width="234">Cedula:</td>
+      <td width="402"><h5>
+        <label for=""></label>
+        <select name="nation" id="nation">
+          <option value="V">Venezolano</option>
+          <option value="E">Extranjero</option>
+          <option value="I">Indocumentado</option>
+        </select>
+        <input type="number" name="ci" id="ci">
+        <br>Introduzca el número de su Cedula de Identidad sin espacios, ni separadores. Ejemplo: &quot;17977636&quot;</h5></td>
+    </tr>
+    <tr>
+      <td>Nombre:</td>
+      <td><input name="name" type="text" id="name"></td>
+    </tr>
+    <tr>
+      <td>Apellido:</td>
+      <td><input name="lastname" type="text" id="lastname"></td>
+    </tr>
+    <tr>
+      <td>Teléfono de Contacto:</td>
+      <td><input name="phone" type="number" id="phone"></td>
+    </tr>
+    <tr>
+      <td>Dirección de habitación:</td>
+      <td><p>
+        <label for="city">Ciudad:</label>
+        <input type="text" name="city" id="city">
+        <label for="street"><br>
+          Calle o Av:</label>
+        <input type="text" name="street" id="street"> <br>
+        <label for="home">Casa o edifício:</label>
+        <input type="text" name="home" id="home"><br>
+        <label for="suite">Apartamento:</label>
+        <input type="text" name="suite" id="suite">
+      </td>
+    </tr>
+    <tr>
+      <td>Teléfono en caso de emergencia:</td>
+      <td><input type="tel" name="phoneEmergency" id="phoneEmergency"></td>
+    </tr>
+    <tr>
+      <td>Fecha de Nacimiento</td>
+      <td><h5>
+          <input type="date" name="birthday" id="birthday">
+       AAAA/MM/DD</h5></td>
+    </tr>
+    <tr>
+      <td>Genero (masculino, femenino)</td>
+      <td><input name="gender" type="radio" id="radio" value="Male" checked>
+      <label for="gender">Masculino 
+        <input type="radio" name="gender" id="radio2" value="female">
+        Femenino
+      </label></td>
+    </tr>
+    <tr>
+      <td>Cargo</td>
+      <td><input name="position" type="text" id="position"></td>
+    </tr>
+    <tr>
+      <td>Correo Electronico Personal</td>
+      <td><input name="email" type="email" id="email"></td>
+    </tr>
+    <tr>
+      <td>Nombre de Usuario</td>
+      <td><input type="text" name="usuario" id="usuario"></td>
+    </tr>
+    <tr>
+      <td>Contraseña</td>
+      <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+      <td colspan="2">  <div align="center">
+        <input type="reset" name="reset" id="reset" value="Restablecer">&nbsp;&nbsp;&nbsp;
+        <input name="submit" type="submit" id="submit" formaction="process_register.php" formmethod="POST" value="Enviar">
+      </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
