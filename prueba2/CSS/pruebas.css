@@ -1,0 +1,30 @@
+.a{
+	display: inline-block;
+	position: relative;
+	width: 130px;
+	height: 130px;
+	background: green;
+
+}
+.a:hover{
+	width: 130px;
+	height: 130px;
+	background: blue;
+	
+}
+
+.bc{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	background: yellow;
+	transition:background 2s;
+}
+.bc:hover{
+	width: 130px;
+	height: 130px;
+	background: red;
+	position: absolute;
+
+
+}

@@ -1,0 +1,100 @@
+
+a
+{
+color:#5ebbe4;
+}
+body
+{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+
+}
+h1
+{
+	font-family: Arial;
+	color: white;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+header
+{
+	background:#354b55 ;
+	padding: 1em;
+}
+header #logo img
+{
+	border: dashed red;
+	border-width: thin;
+	border-color: red;
+	width: 52px;
+	padding: 0.2em;
+	float: left;
+	
+
+}
+header h1
+{
+	border: dashed red;
+	border-width: thin;
+	border-color: red;
+	margin: 0 1px 0 0;
+	float: left;
+	top: 30%;
+	width: 50%;
+}
+header #avatar img{ 
+	border: dashed red;
+	border-width: thin;
+	border-color: red;
+	inline
+	left: 10%;
+	top: 10%;
+	width: 52px;
+	border-radius: 50%;
+
+}
+
+nav {
+	border: dashed red;
+	border-width: thin;
+	border-color: red;
+	background: #84bca1;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 2em;
+	margin: 0,0,0,0;
+	padding: 0,0,0,0;
+	text-align: right;
+	vertical-align:middle;
+
+}
+nav ul {
+	border: dashed red;
+	border-width: thin;
+	border-color: green;
+	list-style: none;
+	float: left;
+	margin: 0,0,0,0;
+	padding: 0,0,0,0;
+
+}
+
+nav ul li a {
+	border: dashed red;
+	border-width: thin;
+	border-color: black;
+	color: white;
+	position: relative;
+	
+
+}
+nav ul li {
+	display: inline-block;
+	padding-left: 1em;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}

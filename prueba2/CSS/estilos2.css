@@ -1,0 +1,64 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+article{
+	display:block;
+	
+	}
+body{
+	font-family:'Sofadi One';
+	background:#000;
+	
+	}
+form{
+	display:block;
+	
+	}
+header{
+	display:block;
+	
+	}
+input{
+	border-radius: 5px;
+	border:thick #FF0;
+	padding:5px;
+	display:block;
+	
+	}
+
+.imagenHeader{
+	border:dashed; #CCC 1px;
+	display:inline-block;
+	position: relative;
+	left:60%;
+	top: 0;
+
+	}
+.imagenHeaderIn{
+	width:100px;
+	height:100px;
+	}
+.inDiv{
+	background:#FFFF33;
+	display:block;
+	position:absolute;
+	left:10%;
+	top:10%;
+	width:441px;
+	height:223px;
+	margin:11px 13px;
+	box-shadow: 1px 1px 15px 15px rgba(255,255,255,0.5);
+	border-radius: 10px 10px 10px 10px;
+	padding:2em 2em;
+	}
+.instruciones{
+    
+	display:block;
+	}
+.tituloVentana{
+	display:inline-block;
+    background: blue;
+	
+	}

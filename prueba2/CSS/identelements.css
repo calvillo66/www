@@ -1,0 +1,39 @@
+figure {
+	border: solid black;
+
+}
+a{
+	border: dashed red;
+
+}
+header {
+	border: dashed red;
+
+}
+footer {
+	border: dashed red;
+}
+h1 {
+	border: dashed red;
+}
+section {
+	border: solid yellow;
+}
+article {
+	border: dashed black;
+}
+aside {
+	border: solid blue;
+}
+h2 {
+	border: dashed red;
+}
+nav {
+	border: dashed green;
+}
+ul {
+	border: dashed blue;
+}
+li {
+	border: solid white;
+}

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+	background:#000
+	}
+
+#1 {
+	
+
+	background-color: #FFFF99;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+	width: 480px;
+	height: 800px;
+}
+#divGenIn {
+	border:solid #FFFF99 20px;
+	border-radius: 15px 15px;
+	background-color: #ffffcc;
+	padding:0.5em;
+	display: block;
+	position: relative;
+	top: 20px;
+	left: 30px;
+	width:420px;
+	height:740px;
+	
+}
+.backFigure {
+	background-color: #0099ff;
+	padding: 0px;
+	height: 143px;
+	width: 143px;
+	position: relative;
+	left: 138.5px;
+}
+.backFigure > figure:nth-child(1) > img:nth-child(1){
+	position:absolute;
+	top: 5px;
+	left:5px;
+	width:130px;
+	
+	}
+.text{
+	font:Helvetica, Arial, sans-serif;
+	font-size:25px;
+	text-align:center;
+	display:block;
+	width:90%;
+	padding:5%;
+	}
+#id{
+	display:block
+	
+	}
+#ab{
+	border:solid #0F0;
+	}
+	
+.classBoton {
+	font-size: 120%;
+	color: #FFF;
+	background-color: #F9C;
+	border-radius:5px 5px 5px 5px;
+	border-color:#F0F;
+	padding:15px;
+	display:block;
+	width: 100%;
+	
+}
+.classBoton:hover{ transition:.2s;
+			box-shadow: 0px 0px 5px 5px 				rgba(255,153,153,0.8)}
+			
+.classFormu {
+	
+	padding:0px 100px;
+	display:block;
+	}
+#cedu{
+position:absolute;
+	top: 0px;
+	left:-80px;
+	width:300px
+
+}
